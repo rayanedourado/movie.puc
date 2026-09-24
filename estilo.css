@@ -1,0 +1,9 @@
+.primeiraClasse{
+    color:darkorchid;
+    text=align: center;
+    font-size: 60px;
+}
+.primeiraClasse:hover{
+    color:blue;
+    nt-family: 'Conrier New', Courier, menospace;
+}
