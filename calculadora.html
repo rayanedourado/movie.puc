@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Meu Site</title>
+        <script type="text/javascript">
+            function soma(){
+                let x, y, z;
+                x = parseInt(document.getElementById("n1").value);
+                console.log("Valor de x: ", x);
+                y = parseInt (document.getElementById("n2").value);
+                console.log("Valor de y: ", y);
+                z = x+y;
+                console.log("Valor de z: ", z);
+                document.getElementById("resultado").value=z;
+            }
+        </script>
+    </head>
+    <body>
+        <label for="n1">Primeiro numero</label><br>
+        <input type="text" id="n1"><br><br>
+        <label for="n2">Segundo numero</label><br>
+        <input type="text" id="n2"><br><br>
+        <button onclick="soma()">Calcular</button><br><br>
+        <label for="resultado">Resultado</label><br>
+        <input type="text" id="resultado">
+
+        </body>
